@@ -8,6 +8,8 @@ using System.Threading.Tasks;
 namespace DAL.Repository
 {
     //Aqui va el contrato - metodos utilizados - COLOCAR PUBLIC
+
+//prueba comentario pusha
     public interface IGenericRepository<TEntityModel> where TEntityModel : class
     {
         //METODOS A USAR

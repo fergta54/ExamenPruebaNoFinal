@@ -13,6 +13,7 @@ namespace DAL.Repository
     public interface IGenericRepository<TEntityModel> where TEntityModel : class
     {
         //METODOS A USAR
+        //COMMIT PRUEBA
         Task<bool> AddUser(TEntityModel modelo);
         Task<bool> ChangeUser(TEntityModel modelo);
         //Task<bool> Delete(int id);
